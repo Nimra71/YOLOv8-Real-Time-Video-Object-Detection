@@ -68,7 +68,8 @@ This project was tested using a **[mention: GPU / CPU / Google Colab / Local PC]
 Install required libraries:
 
 ```bash```
-pip install ultralytics opencv-python
+pip install  ultralytics  opencv-python 
+
 If using long videos, install FFmpeg:
 
 Linux: sudo apt install ffmpeg
@@ -79,7 +80,7 @@ Windows/Mac: Download from https://ffmpeg.org/
 
 Place your video in the project folder and rename it:
 
-input_video.mp4
+test.mp4
 
 
 Run this Python script:
@@ -100,7 +101,7 @@ model.predict(
 
 After processing finishes, YOLO creates a new video here:
 
-runs/detect/predict/input_video.mp4
+runs/detect/predict/test.mp4
 
 
 This output video shows:
@@ -126,7 +127,7 @@ Split long videos into smaller clips before processing
 ## 📁 Project File Structure
 project-folder/
 │
-├── input_video.mp4      # Original video
+├── test.mp4      # Original video
 
 ├── detection_script.py # YOLO detection code
 
