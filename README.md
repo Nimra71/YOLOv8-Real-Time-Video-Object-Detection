@@ -90,7 +90,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 
 model.predict(
-    source="input_video.mp4",
+    source="test.mp4",
     save=True,
     imgsz=640,
     conf=0.25,
